@@ -15,7 +15,9 @@ mathjax: true
 
 文字说明可能不太清楚，画个图会看起来更清晰。
 
-![image](305152D2816348A397CDD2B5BABB657B)
+![image](https://note.youdao.com/yws/res/2419/305152D2816348A397CDD2B5BABB657B?ynotemdtimestamp=1577348591701)
+
+![image](./machine-learning-decision-tree.jpg)
 
 
 （当然判断鱼类不止这么简单，这里只是为了说明决策树的原理）
@@ -71,10 +73,10 @@ mathjax: true
 
 信息的熵由香农提出，量化表示如下：
 
-```math
-H = -\sum_{i=1}^np(x_i)\log_2{p(x_i)}
 
-```
+$$ H = -\sum_{i=1}^np(x_i)\log_2{p(x_i)} $$
+
+
 `p(xi)`表示选择该分类的概率。从这个公式可以看出，数据类别越一致，熵的值越小。如果所有的数据为同一类别，熵就为0。
 
 决策树对于数据的分类就基于减少整个数据集的香农熵。
