@@ -1,12 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang=en>
 <head>
   <meta charset="utf-8">
   
-
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+  <!-- Color theme for statusbar -->
+  <meta name="theme-color" content="#000000" />
+  <!-- 强制页面在当前窗口以独立页面显示,防止别人在框架里调用页面 -->
+  <meta http-equiv="window-target" content="_top" />
   
-  <title>chenyr&#39;s blog</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <title>Hexo</title>
   <meta property="og:type" content="website">
 <meta property="og:title" content="chenyr&#39;s blog">
 <meta property="og:url" content="http://yoursite.com/index.html">
@@ -14,389 +25,405 @@
 <meta property="og:locale" content="en_US">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
+  <!-- Canonical links -->
+  <link rel="canonical" href="http://yoursite.com/index.html">
   
     <link rel="alternate" href="/atom.xml" title="chenyr&#39;s blog" type="application/atom+xml">
   
   
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+    <link rel="icon" href="/favicon.png" type="image/x-icon">
   
   
 <link rel="stylesheet" href="/css/style.css">
 
+  
+  
+  
+  
 <meta name="generator" content="Hexo 4.2.0"></head>
 
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">chenyr&#39;s blog</a>
-      </h1>
+
+<body class="main-center" itemscope itemtype="http://schema.org/WebPage">
+  <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+  <div class="slimContent">
+    <div class="navbar-header">
       
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      
+      <div class="profile-block text-center">
+        <a id="avatar" href="https://github.com/cofess" target="_blank">
+          <img class="img-circle img-rotate" src="/images/avatar.jpg" width="200" height="200">
+        </a>
+        <h2 id="name" class="hidden-xs hidden-sm">昵称</h2>
+        <h3 id="title" class="hidden-xs hidden-sm hidden-md">Web Developer &amp; Designer</h3>
+        <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i> Shenzhen, China</small>
       </div>
+      
+      <div class="search" id="search-form-wrap">
+
+    <form class="search-form sidebar-form">
+        <div class="input-group">
+            <input type="text" class="search-form-input form-control" placeholder="Search" />
+            <span class="input-group-btn">
+                <button type="submit" class="search-form-submit btn btn-flat" onclick="return false;"><i class="icon icon-search"></i></button>
+            </span>
+        </div>
+    </form>
+    <div class="ins-search">
+  <div class="ins-search-mask"></div>
+  <div class="ins-search-container">
+    <div class="ins-input-wrapper">
+      <input type="text" class="ins-search-input" placeholder="Type something..." x-webkit-speech />
+      <button type="button" class="close ins-close ins-selectable" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
     </div>
+    <div class="ins-section-wrapper">
+      <div class="ins-section-container"></div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+      <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+      <ul class="nav navbar-nav main-nav ">
+        
+        
+        <li class="menu-item menu-item-home">
+          <a href="/.">
+            
+            <i class="icon icon-home-fill"></i>
+            
+            <span class="menu-title">Home</span>
+          </a>
+        </li>
+        
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives">
+            
+            <i class="icon icon-archives-fill"></i>
+            
+            <span class="menu-title">Archives</span>
+          </a>
+        </li>
+        
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories">
+            
+            <i class="icon icon-folder"></i>
+            
+            <span class="menu-title">Categories</span>
+          </a>
+        </li>
+        
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags">
+            
+            <i class="icon icon-tags"></i>
+            
+            <span class="menu-title">Tags</span>
+          </a>
+        </li>
+        
+        
+        <li class="menu-item menu-item-repository">
+          <a href="/repository">
+            
+            <i class="icon icon-project"></i>
+            
+            <span class="menu-title">Repository</span>
+          </a>
+        </li>
+        
+        
+        <li class="menu-item menu-item-books">
+          <a href="/books">
+            
+            <i class="icon icon-book-fill"></i>
+            
+            <span class="menu-title">Books</span>
+          </a>
+        </li>
+        
+        
+        <li class="menu-item menu-item-links">
+          <a href="/links">
+            
+            <i class="icon icon-friendship"></i>
+            
+            <span class="menu-title">Links</span>
+          </a>
+        </li>
+        
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about">
+            
+            <i class="icon icon-cup-fill"></i>
+            
+            <span class="menu-title">About</span>
+          </a>
+        </li>
+        
+      </ul>
+      
+	
+    <ul class="social-links">
+    	
+        <li><a href="https://github.com/cofess" target="_blank" title="Github" data-toggle=tooltip data-placement=top><i class="icon icon-github"></i></a></li>
+        
+        <li><a href="http://weibo.com/cofess" target="_blank" title="Weibo" data-toggle=tooltip data-placement=top><i class="icon icon-weibo"></i></a></li>
+        
+        <li><a href="https://twitter.com/iwebued" target="_blank" title="Twitter" data-toggle=tooltip data-placement=top><i class="icon icon-twitter"></i></a></li>
+        
+        <li><a href="https://www.behance.net/cofess" target="_blank" title="Behance" data-toggle=tooltip data-placement=top><i class="icon icon-behance"></i></a></li>
+        
+        <li><a href="/atom.xml" target="_blank" title="Rss" data-toggle=tooltip data-placement=top><i class="icon icon-rss"></i></a></li>
+        
+    </ul>
+
+    </nav>
   </div>
 </header>
-      <div class="outer">
-        <section id="main">
+
   
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/12/25/hello-world/" class="article-date">
-  <time datetime="2019-12-25T11:34:00.502Z" itemprop="datePublished">2019-12-25</time>
-</a>
+    <aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    
+      <div class="widget">
+    <h3 class="widget-title">Board</h3>
+    <div class="widget-body">
+        <div id="board">
+            <div class="content">
+                <p>欢迎交流与分享经验!</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+      
+
+    
+      
+  <div class="widget">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget-body">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E3%80%8C%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E3%80%8D/" rel="tag">「机器学习」</a><span class="tag-list-count">1</span></li></ul>
+    </div>
+  </div>
+
+
+    
+      
+  <div class="widget">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget-body tagcloud">
+      <a href="/tags/%E3%80%8C%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E3%80%8D/" style="font-size: 13px;">「机器学习」</a>
+    </div>
+  </div>
+
+    
+      
+  <div class="widget">
+    <h3 class="widget-title">Archive</h3>
+    <div class="widget-body">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/12/">December 2019</a><span class="archive-list-count">2</span></li></ul>
+    </div>
+  </div>
+
+
+    
+      
+  <div class="widget">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget-body">
+      <ul class="recent-post-list list-unstyled no-thumbnail">
+        
+          <li>
+            
+            <div class="item-inner">
+              <p class="item-category">
+                
+              </p>
+              <p class="item-title">
+                <a href="/2019/12/25/hello-world/" class="title">Hello World</a>
+              </p>
+              <p class="item-date">
+                <time datetime="2019-12-25T11:34:00.502Z" itemprop="datePublished">2019-12-25</time>
+              </p>
+            </div>
+          </li>
+          
+          <li>
+            
+            <div class="item-inner">
+              <p class="item-category">
+                
+              </p>
+              <p class="item-title">
+                <a href="/2019/12/20/%E3%80%8C%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E3%80%8D%E7%AC%94%E8%AE%B01%EF%BC%9A%E5%86%B3%E7%AD%96%E6%A0%91%E5%8E%9F%E7%90%86%E5%8F%8A%E5%AE%9E%E7%8E%B0/" class="title">「机器学习」笔记1：决策树原理及实现</a>
+              </p>
+              <p class="item-date">
+                <time datetime="2019-12-20T03:11:46.000Z" itemprop="datePublished">2019-12-20</time>
+              </p>
+            </div>
+          </li>
+          
+      </ul>
+    </div>
+  </div>
+  
+
     
   </div>
-  <div class="article-inner">
+</aside>
+
+  
+  <main class="main" role="main">
+  
+  <div class="content article-list">
     
+      <article class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="article-header">
     
-      <header class="article-header">
-        
   
     <h1 itemprop="name">
       <a class="article-title" href="/2019/12/25/hello-world/">Hello World</a>
     </h1>
   
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/12/25/hello-world/" data-id="ck4l8a6jo0000owvc2pia8hae" class="article-share-link">Share</a>
-      
-      
-    </footer>
   </div>
   
+  <p class="article-meta">
+    <span class="article-date">
+    <i class="icon icon-calendar-check"></i>
+	<a href="/2019/12/25/hello-world/" class="article-date">
+	  <time datetime="2019-12-25T11:34:00.502Z" itemprop="datePublished">Dec 25</time>
+	</a>
+</span>
+    
+    
+
+    <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2019/12/25/hello-world/#comments" class="article-comment-link">Comments</a></span>
+    
+  </p>
 </article>
 
-
-  
-    <article id="post-「机器学习」笔记1：决策树原理及实现" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/12/20/%E3%80%8C%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E3%80%8D%E7%AC%94%E8%AE%B01%EF%BC%9A%E5%86%B3%E7%AD%96%E6%A0%91%E5%8E%9F%E7%90%86%E5%8F%8A%E5%AE%9E%E7%8E%B0/" class="article-date">
-  <time datetime="2019-12-20T03:11:46.000Z" itemprop="datePublished">2019-12-20</time>
-</a>
     
-  </div>
-  <div class="article-inner">
+      <article class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="article-header">
     
-    
-      <header class="article-header">
-        
   
     <h1 itemprop="name">
       <a class="article-title" href="/2019/12/20/%E3%80%8C%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E3%80%8D%E7%AC%94%E8%AE%B01%EF%BC%9A%E5%86%B3%E7%AD%96%E6%A0%91%E5%8E%9F%E7%90%86%E5%8F%8A%E5%AE%9E%E7%8E%B0/">「机器学习」笔记1：决策树原理及实现</a>
     </h1>
   
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>参考：机器学习实战，[美]Peter Harrington 著，李锐 李鹏 曲亚东译</p>
-<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>决策树是对数据进行分类的一种算法。对数据的特征一一判断，从而得出该数据属于哪一个类别。</p>
-<p>举个简单的例子。比如判断一种生物是否属于鱼类，我们可以先看它不浮出水面是否可以生存，如果不可以，就不是鱼类；如果可以，再看它是否有脚蹼，如果有，则是鱼类，如果没有，就不是。</p>
-<p>文字说明可能不太清楚，画个图会看起来更清晰。</p>
-<p><img src="305152D2816348A397CDD2B5BABB657B" alt="image"></p>
-<p>（当然判断鱼类不止这么简单，这里只是为了说明决策树的原理）</p>
-<p>假设判断鱼类就只需要这两个条件，机器学习中称之为特征，那么机器如何知道先分析哪个特征可以更快更有效率地得到分类结果呢？</p>
-<p>更进一步，当其他分类问题需要分析不止2个特征时，这个问题就变成，如何安排特征分析的顺序以使未知类别的数据得到更快的分类。</p>
-<p>这就是决策树所解决的问题。</p>
-<p>决策树通过对数据集样本的分析，得到一个对数据分类的最优方法（就是分析特征的最优顺序），即通过最小的步骤/代价得到分类结果的分类规则。</p>
-<p>具体到一个特定问题上。还是上面鱼类的问题，给出下列数据集：</p>
-<table>
-<thead>
-<tr>
-<th>样本\特征</th>
-<th>不浮出水面是否可以生存</th>
-<th>是否有脚蹼</th>
-<th>label：是否鱼类</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1</td>
-<td>是</td>
-<td>是</td>
-<td>是</td>
-</tr>
-<tr>
-<td>2</td>
-<td>是</td>
-<td>是</td>
-<td>是</td>
-</tr>
-<tr>
-<td>3</td>
-<td>是</td>
-<td>否</td>
-<td>否</td>
-</tr>
-<tr>
-<td>4</td>
-<td>否</td>
-<td>是</td>
-<td>是</td>
-</tr>
-<tr>
-<td>5</td>
-<td>否</td>
-<td>是</td>
-<td>否</td>
-</tr>
-</tbody></table>
-<p>上表的5个样本分别有2个特征，及对应的label，也就是类别。下面我们就以该数据集为例，构建一个划分鱼类的决策树。</p>
-<h1 id="构造决策树"><a href="#构造决策树" class="headerlink" title="构造决策树"></a>构造决策树</h1><p>既然我们要让机器学习到使分类最有效率的分析特征的顺序，就要为这个「效率」定一个量化标准。就像深度学习中的损失函数，为整个网络提供了优化的目标——使损失函数变得更小。在决策树的构造中，这个量化标准就是：熵。</p>
-<p>决策树的构造就是选择当前使数据集的熵减少的最多的划分方法，把数据集划分成若干子数据集，再在子数据集中重复以上步骤，直到所有特征都用完或者样本都属于同一类别。</p>
-<p>在每个子数据集做的工作都是相同的，所以使用递归实现。</p>
-<p>程序逻辑：</p>
-<blockquote>
-<pre><code>函数 create_tree()
-
-If 当前数据集的每个样本都属于同一类
-    Return 该类别
-Else if 所有特征都已使用
-    Return 该数据集中样本数量最多的类别
-Else
-    选择下一个划分数据集的特征（根据熵减小的量）
-    划分数据集
-    创建分支
-    for 每个划分的子集
-          调用本函数 create_tree()
-          将结果添加到分支
-Return 当前分支</code></pre></blockquote>
-<h2 id="香农熵"><a href="#香农熵" class="headerlink" title="香农熵"></a>香农熵</h2><p>熵描述的是信息的无序程度，信息越无序，熵越大。和高中化学中的熵有点像。</p>
-<p>信息的熵由香农提出，量化表示如下：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">H &#x3D; -\sum_&#123;i&#x3D;1&#125;^np(x_i)\log_2&#123;p(x_i)&#125;</span><br></pre></td></tr></table></figure>
-<p><code>p(xi)</code>表示选择该分类的概率。从这个公式可以看出，数据类别越一致，熵的值越小。如果所有的数据为同一类别，熵就为0。</p>
-<p>决策树对于数据的分类就基于减少整个数据集的香农熵。</p>
-<p>创建一个数据集：</p>
-<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">create_dataset</span><span class="params">()</span>:</span></span><br><span class="line">    dataset = [[<span class="number">1</span>, <span class="number">1</span>, <span class="string">'yes'</span>],</span><br><span class="line">               [<span class="number">1</span>, <span class="number">1</span>, <span class="string">'yes'</span>],</span><br><span class="line">               [<span class="number">1</span>, <span class="number">0</span>, <span class="string">'no'</span>],</span><br><span class="line">               [<span class="number">0</span>, <span class="number">1</span>, <span class="string">'no'</span>],</span><br><span class="line">               [<span class="number">0</span>, <span class="number">1</span>, <span class="string">'no'</span>]]</span><br><span class="line">    features = [<span class="string">'no surfacing'</span>, <span class="string">'flippers'</span>]</span><br><span class="line">    <span class="keyword">return</span> dataset, features</span><br></pre></td></tr></table></figure>
-
-<p>对形似以上列表的数据集计算香农熵：</p>
-<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> math</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">cal_shannon_entropy</span><span class="params">(dataset:list)</span>:</span></span><br><span class="line">    example_num = len(dataset)</span><br><span class="line">    entropy = <span class="number">0.0</span></span><br><span class="line">    label_cnt = &#123;&#125;</span><br><span class="line">    label_list = [example[<span class="number">-1</span>] <span class="keyword">for</span> example <span class="keyword">in</span> dataset]</span><br><span class="line">    <span class="keyword">for</span> label <span class="keyword">in</span> label_list:</span><br><span class="line">        label_cnt[label] = label_cnt.get(label, <span class="number">0</span>) + <span class="number">1</span></span><br><span class="line">    <span class="keyword">for</span> key <span class="keyword">in</span> label_cnt.keys():</span><br><span class="line">        prob = label_cnt[key]/example_num</span><br><span class="line">        entropy -= prob * math.log(prob, <span class="number">2</span>)</span><br><span class="line">    <span class="keyword">return</span> entropy</span><br></pre></td></tr></table></figure>
-
-<p>Terminal 运行(文件名为tree.py)：</p>
-<blockquote>
-<pre><code>import tree
-dataset, labels = tree.create_dataset()
-tree.cal_shannon_entropy(dataset)</code></pre></blockquote>
-<p>输出：</p>
-<blockquote>
-<pre><code>0.97095059445466858</code></pre></blockquote>
-<h2 id="划分数据集"><a href="#划分数据集" class="headerlink" title="划分数据集"></a>划分数据集</h2><p>现在我们已经知道如何计算数据集的有序度，那么接下来就考虑，使用当前情况下哪个特征划分数据集能使有序度提高，也就是香农熵下降。</p>
-<p>熵值在划分前后的变化量，叫做信息增益。</p>
-<p>首先我们需要一个根据某一特征的值划分数据集的函数。对于上一节的数据集，假设按照<code>no surfacing=1</code>划分，则可以得到前3个样本组成的子数据集。用下面函数实现：</p>
-<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">split_dataset</span><span class="params">(dataset:list, axis:int, value)</span>:</span></span><br><span class="line">    sub_dataset = []</span><br><span class="line">    <span class="keyword">for</span> ind, example <span class="keyword">in</span> enumerate(dataset):</span><br><span class="line">        <span class="keyword">if</span> example[axis] == value:</span><br><span class="line">            <span class="comment"># delete the feature which has been used</span></span><br><span class="line">            reduced_vec = example[:axis] + example[axis+<span class="number">1</span>:]</span><br><span class="line">            sub_dataset.append(reduced_vec)</span><br><span class="line">    <span class="keyword">return</span> sub_dataset</span><br></pre></td></tr></table></figure>
-
-
-<p><code>no surfacing</code>这个特征可以将数据集划分为2个子数据集，分别是前3个样本和后2个样本。对这两个子数据集分别求香农熵让后求和，就可以得到分类后的总熵。使用划分前的熵减去划分后的熵，就可以得到信息增益。对所有特征的信息增益进行比较，值最大的信息增益对应的特征，就是当前划分数据集最好的特征。</p>
-<p>以上过程写成函数：</p>
-<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">best_feat_to_split</span><span class="params">(dataset:list)</span>:</span></span><br><span class="line">    base_entropy = cal_shannon_entropy(dataset)</span><br><span class="line">    max_info_gain = <span class="number">-1</span></span><br><span class="line">    best_feat_ind = <span class="number">-1</span></span><br><span class="line">    feat_len = len(dataset[<span class="number">0</span>]) - <span class="number">1</span></span><br><span class="line">    <span class="keyword">for</span> feat <span class="keyword">in</span> range(feat_len):</span><br><span class="line">        <span class="comment"># get all kinds of value of this feature</span></span><br><span class="line">        feat_list = [example[feat] <span class="keyword">for</span> example <span class="keyword">in</span> dataset]</span><br><span class="line">        feat_class = set(feat_list)</span><br><span class="line">        <span class="comment"># split the dataset by all the values , and calculate entropy</span></span><br><span class="line">        entropy = <span class="number">0.0</span></span><br><span class="line">        <span class="keyword">for</span> feat_value <span class="keyword">in</span> feat_class:</span><br><span class="line">            sub_dataset = split_dataset(dataset, feat, feat_value)</span><br><span class="line">            entropy += cal_shannon_entropy(sub_dataset)</span><br><span class="line">        <span class="comment"># calculate decrement of entropy</span></span><br><span class="line">        info_gain = base_entropy - entropy</span><br><span class="line">        <span class="keyword">if</span> info_gain &gt;= max_info_gain:</span><br><span class="line">            best_feat_ind = feat</span><br><span class="line">            max_info_gain = info_gain</span><br><span class="line">    <span class="keyword">return</span> best_feat_ind</span><br></pre></td></tr></table></figure>
-
-<p>该函数返回当前划分数据集最好的特征的索引值。</p>
-<p>得到该特征，据此划分数据集，再对划分后的子数据集重复以上过程，直到满足2个结束条件之一。</p>
-<p>第1个条件比较简单。第2个条件稍微复杂，就是求取该子集中样本数量最多的类别。写个函数描述一下：</p>
-<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> operator</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">major_class</span><span class="params">(class_list:list)</span>:</span></span><br><span class="line">    class_cnt = &#123;&#125;</span><br><span class="line">    <span class="keyword">for</span> class_name <span class="keyword">in</span> class_list:</span><br><span class="line">        class_cnt[class_name] = class_cnt.get(class_name, <span class="number">0</span>) + <span class="number">1</span></span><br><span class="line">    sorted_class = sorted(class_cnt.items(), key=operator.itemgetter(<span class="number">1</span>), reverse=<span class="literal">True</span>)</span><br><span class="line">    <span class="keyword">return</span> sorted_class[<span class="number">0</span>][<span class="number">0</span>]</span><br></pre></td></tr></table></figure>
-
-<p>函数的参数是当前数据集的类别标签列表。</p>
-<h2 id="构建决策树"><a href="#构建决策树" class="headerlink" title="构建决策树"></a>构建决策树</h2><p>现在，我们需要的所有准备工作都做完了。可以根据前文的伪代码写最后的决策树了。</p>
-<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">create_tree</span><span class="params">(dataset:list, labels:list)</span>:</span></span><br><span class="line">    <span class="comment"># ending conditions</span></span><br><span class="line">    class_list = [example[<span class="number">-1</span>] <span class="keyword">for</span> example <span class="keyword">in</span> dataset]</span><br><span class="line">    <span class="keyword">if</span> len(dataset[<span class="number">0</span>]) == <span class="number">1</span>:</span><br><span class="line">        <span class="keyword">return</span> major_class(class_list)</span><br><span class="line">    <span class="keyword">if</span> class_list.count(class_list[<span class="number">0</span>]) == len(class_list):</span><br><span class="line">        <span class="keyword">return</span> class_list[<span class="number">0</span>]</span><br><span class="line"></span><br><span class="line">    feat_ind = best_feat_to_split(dataset)</span><br><span class="line">    best_feat = labels[feat_ind]</span><br><span class="line">    tree = &#123;best_feat:&#123;&#125;&#125;</span><br><span class="line">    labels = labels[:feat_ind] + labels[feat_ind+<span class="number">1</span>:]</span><br><span class="line">    feat_values = set([example[feat_ind] <span class="keyword">for</span> example <span class="keyword">in</span> dataset])</span><br><span class="line">    <span class="keyword">for</span> feat_value <span class="keyword">in</span> feat_values:</span><br><span class="line">        sub_labels = labels[:]</span><br><span class="line">        sub_dataset = split_dataset(dataset, feat_ind, feat_value)</span><br><span class="line">        tree[best_feat][feat_value] = create_tree(sub_dataset, sub_labels)</span><br><span class="line">    <span class="keyword">return</span> tree</span><br></pre></td></tr></table></figure>
-
-<p>运行：</p>
-<blockquote>
-<pre><code>import tree
-dataset, labels = tree.create_dataset()
-decision_tree = create_tree(dataset, labels)</code></pre></blockquote>
-<p>输出：</p>
-<blockquote>
-<pre><code>{&apos;no surfacing&apos;: {0: &apos;no&apos;, 1: {&apos;flippers&apos;: {0: &apos;no&apos;, 1: &apos;yes&apos;}}}}</code></pre></blockquote>
-<p>《机器学习实战》书里还讲了如何将这种保存在字典里的树进行可视化，这里就不详细说明了。不过如果需要将大规模的决策树保存成文件，可以使用<code>pickel</code>模块。</p>
-<p><code>pickle</code>是Python的内建模块。在Python3中，使用二进制保存数据到<code>.pickle</code>文件中。</p>
-<p>读写pickle文件示例：</p>
-<blockquote>
-<pre><code>import pickle as pkl
-# write
-with open(&apos;tree.pickle&apos;, &apos;wb&apos;) as f:
-    pkl.dump(decision_tree, f)
-# read
-with open(&apos;tree.pickle&apos;, &apos;rb&apos;) as f:
-    decision_tree = pkl.load(f)</code></pre></blockquote>
-<h1 id="使用决策树进行分类"><a href="#使用决策树进行分类" class="headerlink" title="使用决策树进行分类"></a>使用决策树进行分类</h1><p>我们已经得到了上述的决策树，如何运用它对一个未知的数据进行分类呢？到这里，它的工作才真正像我们在引言中描述的那样，根据一个一个特征值进行判断。</p>
-<p>上面得到的树长这样：</p>
-<blockquote>
-<pre><code>{&apos;no surfacing&apos;: {0: &apos;no&apos;, 1: {&apos;flippers&apos;: {0: &apos;no&apos;, 1: &apos;yes&apos;}}}}</code></pre></blockquote>
-<p>新的数据长这样:</p>
-<blockquote>
-<pre><code>[1, 0]</code></pre></blockquote>
-<p>（假装它是个数据集里没有的新数据emmm</p>
-<p>根据我们对决策树的理解，不就应该先看<code>no surfacing</code>，等于1，再看<code>flippers</code>，等于0，所以是<code>no</code>嘛。</p>
-<p>转换成程序就是：</p>
-<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">classify</span><span class="params">(input_tree:dict, feat_labels:list, test_vec:list)</span>:</span></span><br><span class="line">    <span class="comment"># get the first feature and its index in feat_labels</span></span><br><span class="line">    first_feat = list(input_tree.keys())[<span class="number">0</span>]</span><br><span class="line">    feat_ind = feat_labels.index(first_feat)</span><br><span class="line">    <span class="comment"># get the corresponding branch</span></span><br><span class="line">    second_dict = input_tree[first_feat][test_vec[feat_ind]]</span><br><span class="line">    <span class="keyword">if</span> type(second_dict) == dict:</span><br><span class="line">        ret = classify(second_dict, feat_labels, test_vec)</span><br><span class="line">        <span class="keyword">return</span> ret</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="keyword">return</span> second_dict</span><br></pre></td></tr></table></figure>
-
-<p>也是一个递归的过程。似乎冥冥之中有些联系？（哈哈）</p>
-<p>运行：</p>
-<blockquote>
-<pre><code>tree.classify(decision_tree, labels, [1, 0])</code></pre></blockquote>
-<p>输出：</p>
-<blockquote>
-<pre><code>no</code></pre></blockquote>
-<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>决策树分类器是基于数据集建立起来的，通过对数据集的分析，计算各种划分方式的信息增益，确定一个最优的划分顺序。</p>
-<p>这也说明决策树的建立和数据集紧密相关，如果数据集不能很好地表达数据的真正分布情况，那得到的决策树就会受到影响。不过这一点我并没有验证过。</p>
-<p>在对新数据分类的时候，根据建立好的树，一个一个判断数据的特征，这个过程就像程序中使用的<code>if/else</code>语句，一层一层往下，直到走到决策树的最底层。</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/12/20/%E3%80%8C%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E3%80%8D%E7%AC%94%E8%AE%B01%EF%BC%9A%E5%86%B3%E7%AD%96%E6%A0%91%E5%8E%9F%E7%90%86%E5%8F%8A%E5%AE%9E%E7%8E%B0/" data-id="ck4m47a940000w0vc8fnq6932" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E3%80%8C%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E3%80%8D/" rel="tag">「机器学习」</a></li></ul>
-
-    </footer>
   </div>
   
+  <p class="article-meta">
+    <span class="article-date">
+    <i class="icon icon-calendar-check"></i>
+	<a href="/2019/12/20/%E3%80%8C%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E3%80%8D%E7%AC%94%E8%AE%B01%EF%BC%9A%E5%86%B3%E7%AD%96%E6%A0%91%E5%8E%9F%E7%90%86%E5%8F%8A%E5%AE%9E%E7%8E%B0/" class="article-date">
+	  <time datetime="2019-12-20T03:11:46.000Z" itemprop="datePublished">Dec 20</time>
+	</a>
+</span>
+    
+    
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>
+	<a class="article-tag-link" href="/tags/%E3%80%8C%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E3%80%8D/" rel="tag">「机器学习」</a>
+  </span>
+
+
+    <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2019/12/20/%E3%80%8C%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E3%80%8D%E7%AC%94%E8%AE%B01%EF%BC%9A%E5%86%B3%E7%AD%96%E6%A0%91%E5%8E%9F%E7%90%86%E5%8F%8A%E5%AE%9E%E7%8E%B0/#comments" class="article-comment-link">Comments</a></span>
+    
+  </p>
 </article>
 
-
-  
-
-
-</section>
-        
-          <aside id="sidebar">
-  
     
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tags</h3>
-    <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E3%80%8C%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E3%80%8D/" rel="tag">「机器学习」</a></li></ul>
-    </div>
   </div>
 
+   
+</main>
 
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tag Cloud</h3>
-    <div class="widget tagcloud">
-      <a href="/tags/%E3%80%8C%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E3%80%8D/" style="font-size: 10px;">「机器学习」</a>
-    </div>
-  </div>
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/12/">December 2019</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
+  <footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+	
+	
+    <ul class="social-links">
+    	
+        <li><a href="https://github.com/cofess" target="_blank" title="Github" data-toggle=tooltip data-placement=top><i class="icon icon-github"></i></a></li>
         
-          <li>
-            <a href="/2019/12/25/hello-world/">Hello World</a>
-          </li>
+        <li><a href="http://weibo.com/cofess" target="_blank" title="Weibo" data-toggle=tooltip data-placement=top><i class="icon icon-weibo"></i></a></li>
         
-          <li>
-            <a href="/2019/12/20/%E3%80%8C%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E3%80%8D%E7%AC%94%E8%AE%B01%EF%BC%9A%E5%86%B3%E7%AD%96%E6%A0%91%E5%8E%9F%E7%90%86%E5%8F%8A%E5%AE%9E%E7%8E%B0/">「机器学习」笔记1：决策树原理及实现</a>
-          </li>
+        <li><a href="https://twitter.com/iwebued" target="_blank" title="Twitter" data-toggle=tooltip data-placement=top><i class="icon icon-twitter"></i></a></li>
         
-      </ul>
-    </div>
-  </div>
+        <li><a href="https://www.behance.net/cofess" target="_blank" title="Behance" data-toggle=tooltip data-placement=top><i class="icon icon-behance"></i></a></li>
+        
+        <li><a href="/atom.xml" target="_blank" title="Rss" data-toggle=tooltip data-placement=top><i class="icon icon-rss"></i></a></li>
+        
+    </ul>
 
-  
-</aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2019 John Doe<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    <div class="copyright">
+    	
+        <div class="publishby">
+        	Theme by <a href="https://github.com/cofess" target="_blank"> cofess </a>base on <a href="https://github.com/cofess/hexo-theme-pure" target="_blank">pure</a>.
+        </div>
     </div>
-  </div>
 </footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
-    
+  <script src="//cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+<script>
+window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
+</script>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="/js/plugin.min.js"></script>
 
 
-  
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-
-  
-<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script src="/js/application.js"></script>
 
 
+    <script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Posts',
+            PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+
+<script src="/js/insight.js"></script>
 
 
-<script src="/js/script.js"></script>
 
 
 
 
-  </div>
+   
+
+
+
+
+
+
+
+
+
 </body>
 </html>
