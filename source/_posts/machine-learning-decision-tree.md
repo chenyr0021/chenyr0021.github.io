@@ -1,7 +1,9 @@
 ---
 title: 「机器学习」笔记1：决策树原理及实现
+categroies: 学习笔记
 date: 2019-12-20 11:11:46
-tags: 「机器学习」
+tags: 机器学习
+mathjax: true
 ---
 参考：机器学习实战，[美]Peter Harrington 著，李锐 李鹏 曲亚东译
 
