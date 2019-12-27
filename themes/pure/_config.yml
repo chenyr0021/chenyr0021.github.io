@@ -5,8 +5,8 @@ menu:
   Categories: categories  # 分类
   Tags: tags  # 标签
   Repository: repository  # github repositories
-  Books: books  # 豆瓣书单
-  Links: links  # 友链
+  # Books: books  # 豆瓣书单
+  # Links: links  # 友链
   About: about  # 关于
 
 # Enable/Disable menu icons
@@ -17,12 +17,12 @@ menu_icons:
   categories: icon-folder
   tags: icon-tags
   repository: icon-project
-  books: icon-book-fill
-  links: icon-friendship
+  # books: icon-book-fill
+  # links: icon-friendship
   about: icon-cup-fill
 
 # rss
-rss: /atom.xml
+# rss: /atom.xml
 
 # Site
 site:
@@ -30,15 +30,15 @@ site:
     enabled: true
     width: 40
     height: 40
-    url: ./images/profile.jpg
+    url: ./favicon.png
   title: 陈小白的博客 # 页面title
-  favicon: /favicon.png
+  favicon: ./favicon.png
   board: <p>欢迎交流与分享经验!</p> # 站点公告
   copyright: true # 底部版权信息
 
 # config
 config:
-  skin: # 主题颜色 theme-black theme-blue theme-green theme-purple
+  skin: theme-black # 主题颜色 theme-black theme-blue theme-green theme-purple
   layout: main-center # 布局方式 main-left main-center main-right
   toc: true # 是否开启文章章节目录导航
   menu_highlight: true # 是否开启当前菜单高亮显示
@@ -59,12 +59,12 @@ widgets:
   - board  
   - category
   - tag
-  - tagcloud
+  # - tagcloud
   - archive
   - recent_posts
 
 # display widgets at the bottom of index pages (pagination == 2)
-index_widgets:
+# index_widgets:
 # - category
 # - tagcloud
 # - archive  
@@ -83,7 +83,7 @@ search:
 
 # Donate
 donate:
-  enable: true
+  enable: false
   # 微信打赏
   wechatpay:
     qrcode: images/donate/wechatpayimg.png
@@ -102,13 +102,13 @@ share:
 
 # Github
 github: 
-  username: cofess  # github username
+  username: chenyr0021  # github username
 
 # Comment
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
 comment:
-  type: valine  # 启用哪种评论系统
+  type: gitalk  # 启用哪种评论系统
   disqus:  # enter disqus shortname here
   youyan: 
     uid: 1783844 # enter youyan uid 
@@ -121,11 +121,11 @@ comment:
     ClientSecret: 
     lazy: false
   gitalk: # gitalk. https://gitalk.github.io/
-    owner:  #必须. GitHub repository 所有者，可以是个人或者组织。
-    admin:  #必须. GitHub repository 的所有者和合作者 (对这个 repository 有写权限的用户)。
-    repo:  #必须. GitHub repository.
-    ClientID:  #必须. GitHub Application Client ID.
-    ClientSecret:  #必须. GitHub Application Client Secret.
+    owner:  chenyr0021 #必须. GitHub repository 所有者，可以是个人或者组织。
+    admin:  chenyr0021 #必须. GitHub repository 的所有者和合作者 (对这个 repository 有写权限的用户)。
+    repo:  git@github.com:chenyr0021/chenyr0021.github.io.git #必须. GitHub repository.
+    ClientID: 34d38e7d1a312300e530 #必须. GitHub Application Client ID.
+    ClientSecret: f667a8559967d4ead670af6a968f32740ce59394 #必须. GitHub Application Client Secret.
   valine: # Valine. https://valine.js.org
     appid:  # your leancloud application appid
     appkey:  # your leancloud application appkey
@@ -156,7 +156,7 @@ douban:
 # PV
 pv:
   busuanzi:
-    enable: false  # 不蒜子统计
+    enable: true  # 不蒜子统计
   leancloud:
     enable: false  # leancloud统计
     app_id: # leancloud <AppID>
@@ -164,7 +164,7 @@ pv:
         
 # wordcount
 postCount:
-  enable: false
+  enable: false 
   wordcount: true  # 文章字数统计
   min2read: true  # 阅读时长预计 
 
@@ -187,21 +187,22 @@ profile:
   avatar: ./images/profile.jpg
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
   author: 陈小白
-  author_title: 哈工大研究生在读
+  author_title: Graduate of Harbin Institute of Technology
   author_description: 胸无大志，但一心向前。
   location: Shenzhen, China
   follow: https://github.com/chenyr0021
   # Social Links
   social:
     links:
-      github: https://github.com/chenyr0021
+      # github: https://github.com/chenyr0021
+      # zhihu: https://www.zhihu.com/people/lu-yi-ran-yuan-50
       # weibo: http://weibo.com/cofess
       # twitter: https://twitter.com/iwebued
       # facebook: /
       # dribbble: /
       # behance: https://www.behance.net/cofess
-      rss: atom.xml
-    link_tooltip: true # enable the social link tooltip, options: true, false
+      # rss: atom.xml
+    # link_tooltip: true # enable the social link tooltip, options: true, false
   # My Skills 
   skills:
     Git: ★★★☆☆
@@ -213,11 +214,11 @@ profile:
     平面设计: ★★★☆☆
   # My Personal Links
   links:
-    Github: https://github.com/cofess
-    Blog: http://blog.cofess.com
-    微博: http://weibo.com/cofess
-    花瓣: http://huaban.com/cofess
-    Behance: https://www.behance.net/cofess
+    Github: https://github.com/chenyr0021
+    Blog: https://chenyr0021.github.io/
+    # 微博: http://weibo.com/cofess
+    # 花瓣: http://huaban.com/cofess
+    # Behance: https://www.behance.net/cofess
   # My Personal Labels
   labels:
     - 前端
@@ -226,10 +227,10 @@ profile:
     - Web前端
     - 网页重构
   # My Personal Works
-  works:
-    name:
-      link: http://www.example.com
-      date: 2016
+  # works:
+    # name:
+      # link: http://www.example.com
+      # date: 2016
   # My Personal Projects
   projects:
     cofess/gulp-startpro: https://github.com/cofess/gulp-startpro

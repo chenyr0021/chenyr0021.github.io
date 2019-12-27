@@ -1,6 +1,6 @@
 ---
 title: 「机器学习」笔记1：决策树原理及实现
-categroies: 学习笔记
+categories: 学习笔记
 date: 2019-12-20 11:11:46
 tags: 机器学习
 mathjax: true
@@ -15,9 +15,7 @@ mathjax: true
 
 文字说明可能不太清楚，画个图会看起来更清晰。
 
-![image](https://note.youdao.com/yws/res/2419/305152D2816348A397CDD2B5BABB657B?ynotemdtimestamp=1577348591701)
-
-![image](./machine-learning-decision-tree.jpg)
+![image](https://raw.githubusercontent.com/chenyr0021/chenyr0021.github.io/hexo/source/_posts/machine-learning-decision-tree.jpg)
 
 
 （当然判断鱼类不止这么简单，这里只是为了说明决策树的原理）
